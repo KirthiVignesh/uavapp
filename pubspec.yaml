@@ -36,6 +36,18 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  firebase_core: 
+  firebase_auth: 
+  cloud_firestore: 
+  firebase_storage:
+  cnav: ^0.1.2
+  google_nav_bar: ^5.0.6
+  google_fonts: ^3.0.1
+  flutter_remix: ^0.0.3
+  awesome_snackbar_content: ^0.1.0
+  camerawesome: ^1.2.0
+  path_provider:
+  better_open_file:
 
 dev_dependencies:
   flutter_test:
@@ -47,6 +59,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
