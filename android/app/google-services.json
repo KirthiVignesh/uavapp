@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "972893135954",
+    "project_id": "uavapp-69420",
+    "storage_bucket": "uavapp-69420.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972893135954:android:a3cde4f4dd98df74f1ab8b",
+        "android_client_info": {
+          "package_name": "com.example.uavapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972893135954-badco5i15clfuo6ii9i112bo6aub44c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_UcD_ZVPtKzUl31aJt3STZfXOpQv9vGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972893135954-badco5i15clfuo6ii9i112bo6aub44c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
