@@ -69,17 +69,30 @@ class _UploadPageState extends State<UploadPage> {
                 ),
               ),
               SizedBox(height: 20),
-              GestureDetector(
-                onTap: () => Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => CameraSelect())),
-                child: Row(
-                  children: [
-                    Text("Camera",
-                        style: TextStyle(
-                          fontSize: 28,
-                        )),
-                    Icon(FlutterRemix.camera_lens_line),
-                  ],
+              Center(
+                child: GestureDetector(
+                  onTap: () => Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => CameraSelect())),
+                  child: Card(
+                    color: Colors.deepPurple[100],
+                    clipBehavior: Clip.antiAliasWithSaveLayer,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(14)),
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        child: Row(
+                          children: [
+                            Text("Camera    ",
+                                style: TextStyle(
+                                  fontSize: 28,
+                                )),
+                            Icon(FlutterRemix.camera_lens_line),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],
